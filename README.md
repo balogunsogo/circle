@@ -1,27 +1,20 @@
-# Circle concept website
+# Circle
 
-A fictional design studio built from the existing visual shell: dark surfaces, warm orange accents, oversized typography, editorial spacing, and project cards. All copy and artwork are concept material. No live business, clients, memberships, addresses, or social accounts are represented.
+A concept reskin of the exported site. The original page structure, component classes, responsive styles, animation IDs, interaction runtime, inline GSAP scripts, sliders, tabs, ticker, and all 20 page templates are retained. Branding, contacts, portfolio names, media, and claims are neutral concept content.
 
-## Run locally
+## Run
 
 ```sh
 cd /workspace/circle
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-No installation or build step is required. Deploy the repository root to a static host. All assets are local; there are no external scripts, media embeds, analytics, or font requests.
+There is no build step. Dependencies and Outfit fonts are bundled locally with their notices in `licenses/`. GitHub Pages serves `main` from `/ (root)`; `.nojekyll` is retained.
 
-## Content and behavior
+## Content boundaries
 
-- Nine static pages with shared navigation and footer.
-- Orbit, Field, and Ripple are fictional studies using locally authored SVG artwork.
-- The accessible mobile menu supports its toggle, navigation links, and Escape.
-- The contact form is an explicitly labelled demo. It sends no requests and stores no data.
-- Previous business content, media, CMS detail templates, video references, and bundled interaction data have been removed. Navigation and form behavior use a small local script.
-- The original layout styles remain as a shell, with concept styling in `css/concept.css`. Typography uses a system font stack.
+Original business images and logos are replaced within their existing slots by local neutral SVGs. Video slots retain their layout with a concept poster; no footage is included. Forms are demos and transmit nothing. CMS template structures remain intact. Empty collection bindings use neutral concept placeholders; live collection records were not included in the ZIP. Multi-record collection behavior needs additional concept records. The original remote menu animation is replaced with a local hamburger-to-close Lottie asset.
 
-## GitHub Pages
+## Validation
 
-In the repository settings, open **Pages**. Under **Build and deployment**, select **Deploy from a branch**, choose **main** and **/ (root)**, then save.
-
-The site will be available at https://balogunsogo.github.io/circle/ after GitHub completes deployment. All page and asset paths are relative to support this project URL. The `.nojekyll` file tells Pages to serve the static files without Jekyll processing.
+All 20 exported pages were loaded in Chromium with the original IX2/IX3 runtime active and no JavaScript errors, failed assets, or external requests. Checks exercised tab clicks, image switching, timed rotation, counter animation, hover cursors, mobile navigation open/close, and the demo submission guard. All original animation target IDs and page IDs were compared against the initial export. The original Swiper code is retained; multi-slide CMS behavior requires additional collection content.

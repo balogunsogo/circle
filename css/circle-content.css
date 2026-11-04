@@ -1,0 +1,6 @@
+/* Content-only adjustments; exported component styles remain intact. */
+.hero-bg-video { background: url('../images/concept.svg') center/cover no-repeat; }
+.video img { object-fit: cover; }
+form[data-circle-demo]::before { content: 'Concept demo — submissions are not sent or stored.'; display: block; font: 12px Outfit, sans-serif; color: #aaa; margin-bottom: 10px; }
+
+.w-dyn-empty[hidden] { display: none !important; }
