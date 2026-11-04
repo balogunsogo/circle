@@ -2,7 +2,7 @@
   --bg--dark: #161a22;
   --transparent: #fff0;
   --off-white: #f2e9e5;
-  --triangle-orange: #ee641c;
+  --circle-orange: #ee641c;
   --light-grey: #494949;
   --bg--darker: #080a0d;
   --grey: #6e6a68;
@@ -57,7 +57,7 @@
 
 .w-checkbox-input--inputType-custom.w--redirected-checked {
   background-color: #3898ec;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-image: none;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -152,7 +152,7 @@ p {
   font-weight: 400;
 }
 
-.triangle_elevates {
+.circle_elevates {
   background-color: var(--transparent);
   flex-flow: column;
   justify-content: space-between;
@@ -205,7 +205,7 @@ p {
 }
 
 .small_link:hover {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
 }
 
 .member_of {
@@ -239,7 +239,7 @@ p {
   display: flex;
 }
 
-.cedia {
+.legacy-partner-a {
   width: auto;
   height: 60px;
   margin-right: 2rem;
@@ -422,7 +422,7 @@ p {
 }
 
 .active_progress_line {
-  background-color: var(--triangle-orange);
+  background-color: var(--circle-orange);
   width: 6rem;
   height: 1px;
 }
@@ -523,7 +523,7 @@ p {
 }
 
 .capital_text_small {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
   font-size: 1rem;
   font-weight: 300;
   line-height: 100%;
@@ -808,7 +808,7 @@ p {
 
 .intelligent_spaces {
   background-color: #161a22;
-  background-image: linear-gradient(#0006, #0006), url('../images/intelligent-spaces.avif');
+  background-image: linear-gradient(#0006, #0006), none;
   background-position: 0 0, 50%;
   background-size: auto, cover;
   flex-flow: column;
@@ -928,7 +928,7 @@ p {
 }
 
 .button_filled_white:hover {
-  background-color: var(--triangle-orange);
+  background-color: var(--circle-orange);
   color: var(--off-white);
 }
 
@@ -966,7 +966,7 @@ p {
 }
 
 .button_filled_gray:hover {
-  background-color: var(--triangle-orange);
+  background-color: var(--circle-orange);
   color: var(--off-white);
 }
 
@@ -1069,7 +1069,7 @@ p {
 }
 
 .submit-button:hover {
-  background-color: var(--triangle-orange);
+  background-color: var(--circle-orange);
   color: var(--off-white);
 }
 
@@ -1102,7 +1102,7 @@ p {
 }
 
 .contact_text_light:hover {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
 }
 
 .contact_text_light_mb {
@@ -1116,7 +1116,7 @@ p {
 }
 
 .contact_text_light_mb:hover {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
 }
 
 .navigation_items {
@@ -1128,7 +1128,7 @@ p {
 }
 
 .navigation_items:hover, .navigation_items:active, .navigation_items:focus {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
 }
 
 .lower_left {
@@ -1945,7 +1945,7 @@ p {
 }
 
 .next_proj {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
   letter-spacing: normal;
   margin-top: 0;
   margin-bottom: 1.5rem;
@@ -2236,15 +2236,15 @@ p {
 
 .navigation-link:hover {
   background-color: var(--transparent);
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
 }
 
 .navigation-link:focus {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
 }
 
 .navigation-link.w--current {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
   cursor: pointer;
 }
 
@@ -2739,7 +2739,7 @@ p {
   height: .4px;
 }
 
-.triangle_elevates_about {
+.circle_elevates_about {
   background-color: var(--transparent);
   flex-flow: column;
   justify-content: space-between;
@@ -2840,7 +2840,7 @@ p {
   display: flex;
 }
 
-.triangle_elevates_services {
+.circle_elevates_services {
   background-color: var(--transparent);
   flex-flow: column;
   justify-content: space-between;
@@ -3047,7 +3047,7 @@ p {
   min-height: 50vh;
 }
 
-.avixa {
+.legacy-partner-b {
   width: auto;
   height: 60px;
 }
@@ -3509,7 +3509,7 @@ p {
 }
 
 .label {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
   letter-spacing: normal;
   text-transform: uppercase;
   margin-top: 0;
@@ -3842,7 +3842,7 @@ p {
 }
 
 .blog1_swiper-script {
-  background-color: var(--triangle-orange);
+  background-color: var(--circle-orange);
   display: none;
 }
 
@@ -4133,7 +4133,7 @@ p {
 }
 
 .button {
-  background-color: var(--triangle-orange);
+  background-color: var(--circle-orange);
   border-radius: 4px;
 }
 
@@ -4181,7 +4181,7 @@ p {
 }
 
 .text-link-with-arrow:hover {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
 }
 
 .small_link-text {
@@ -4202,7 +4202,7 @@ p {
 }
 
 .button-link-with-arrow:hover {
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
 }
 
 .hero_projects_heading {
@@ -4386,7 +4386,7 @@ p {
 }
 
 .text_field:active, .text_field:focus {
-  border-color: var(--triangle-orange);
+  border-color: var(--circle-orange);
 }
 
 .text_field::placeholder {
@@ -4407,7 +4407,7 @@ p {
 }
 
 .textarea:active, .textarea:focus {
-  border-color: var(--triangle-orange);
+  border-color: var(--circle-orange);
 }
 
 .textarea::placeholder {
@@ -4460,7 +4460,7 @@ p {
   line-height: 100%;
 }
 
-.triangle_csr_description {
+.circle_csr_description {
   background-color: var(--transparent);
   flex-flow: column;
   justify-content: space-between;
@@ -4572,7 +4572,7 @@ p {
 }
 
 .blog_filter_button:hover, .blog_filter_button.is-list-active {
-  background-color: var(--triangle-orange);
+  background-color: var(--circle-orange);
   color: var(--off-white);
 }
 
@@ -4889,7 +4889,7 @@ p {
 
 .story_date {
   width: 100%;
-  color: var(--triangle-orange);
+  color: var(--circle-orange);
   letter-spacing: normal;
   margin-top: 0;
   margin-bottom: 0;
@@ -5308,7 +5308,7 @@ p {
     font-size: 12vw;
   }
 
-  .triangle_elevates {
+  .circle_elevates {
     padding-top: 10rem;
     padding-bottom: 8rem;
   }
@@ -5481,7 +5481,7 @@ p {
   }
 
   .intelligent_spaces {
-    background-image: linear-gradient(#0000, #0000), url('../images/intelligent-spaces.avif');
+    background-image: linear-gradient(#0000, #0000), none;
     background-position: 0 0, 50%;
     height: 50vh;
     min-height: 500px;
@@ -5844,7 +5844,7 @@ p {
     width: 100%;
   }
 
-  .triangle_elevates_about {
+  .circle_elevates_about {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
@@ -5868,7 +5868,7 @@ p {
     width: 100%;
   }
 
-  .triangle_elevates_services {
+  .circle_elevates_services {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
@@ -6112,7 +6112,7 @@ p {
     line-height: 100%;
   }
 
-  .triangle_csr_description {
+  .circle_csr_description {
     padding-bottom: 4rem;
   }
 
@@ -6206,7 +6206,7 @@ p {
   }
 
   .story_date {
-    color: var(--triangle-orange);
+    color: var(--circle-orange);
   }
 
   .story-title {
@@ -6303,7 +6303,7 @@ p {
     font-size: 12vw;
   }
 
-  .triangle_elevates {
+  .circle_elevates {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
@@ -6416,7 +6416,7 @@ p {
   }
 
   .intelligent_spaces {
-    background-image: url('../images/intelligent-spaces.avif');
+    background-image: none;
     background-position: 50%;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -6539,7 +6539,7 @@ p {
     width: 180px;
   }
 
-  .triangle_elevates_services {
+  .circle_elevates_services {
     padding-top: 4rem;
   }
 
@@ -6724,7 +6724,7 @@ p {
     line-height: 110%;
   }
 
-  .triangle_elevates {
+  .circle_elevates {
     padding: 8rem 1rem 4rem;
   }
 
@@ -6755,7 +6755,7 @@ p {
     overflow: visible;
   }
 
-  .cedia {
+  .legacy-partner-a {
     width: auto;
     max-width: 100%;
     height: 56px;
@@ -7073,7 +7073,7 @@ p {
   }
 
   .intelligent_spaces {
-    background-image: linear-gradient(#0000004d, #0000004d), url('../images/intelligent-spaces.avif');
+    background-image: linear-gradient(#0000004d, #0000004d), none;
     background-position: 0 0, 30%;
     background-size: auto, cover;
     padding-left: 5%;
@@ -7081,7 +7081,7 @@ p {
   }
 
   .intelligent_spaces.animate-image {
-    background-image: linear-gradient(#00000094, #00000094), url('../images/services-hero-img.avif');
+    background-image: linear-gradient(#00000094, #00000094), none;
     background-position: 0 0, 100%;
   }
 
@@ -7803,7 +7803,7 @@ p {
     margin-top: 1rem;
   }
 
-  .triangle_elevates_about {
+  .circle_elevates_about {
     padding: 4rem 1rem;
   }
 
@@ -7853,7 +7853,7 @@ p {
     padding: 4rem 1rem 6rem;
   }
 
-  .triangle_elevates_services {
+  .circle_elevates_services {
     padding: 4rem 1rem 5rem;
   }
 
@@ -7971,7 +7971,7 @@ p {
     height: 60vh;
   }
 
-  .avixa {
+  .legacy-partner-b {
     width: auto;
     max-width: 100%;
     height: 56px;
@@ -8294,7 +8294,7 @@ p {
     line-height: 110%;
   }
 
-  .triangle_csr_description {
+  .circle_csr_description {
     padding: 5rem 1rem;
   }
 
