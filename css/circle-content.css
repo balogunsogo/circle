@@ -4,3 +4,82 @@
 form[data-circle-demo]::before { content: 'Concept demo — submissions are not sent or stored.'; display: block; font: 12px Outfit, sans-serif; color: #aaa; margin-bottom: 10px; }
 
 .w-dyn-empty[hidden] { display: none !important; }
+
+/* Service category rows retain the original 200px layout and reveal on interaction. */
+.service-categories .service-category-row {
+  color: #fff;
+  border-top: 1px solid var(--light-grey);
+  transition: color .3s ease;
+}
+.service-categories > :last-child .service-category-row {
+  border-bottom: 1px solid var(--light-grey);
+}
+.service-category-row .animated_center {
+  height: 200px;
+  margin: 0;
+  gap: 24px;
+}
+.service-category-row .animated-left_side {
+  min-width: 0;
+  gap: 0;
+}
+.service-category-row .big_capital_text,
+.service-category-row .big_capital_number {
+  color: inherit;
+  width: auto;
+  margin: 0;
+  font-size: clamp(48px, 7.32vw, 100px);
+  line-height: 1;
+  white-space: nowrap;
+}
+.service-category-row .big_capital_number {
+  flex: 0 0 auto;
+  text-align: right;
+}
+.service-category-row .service_thumbnail {
+  display: block;
+  width: 0;
+  height: 200px;
+  flex: 0 0 auto;
+  margin-right: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: width .35s ease, margin-right .35s ease, opacity .25s ease;
+}
+.service-category-row .service_thumbnail_img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  max-width: none;
+  object-fit: cover;
+}
+.service-category-row:is(:hover, :focus-visible) {
+  color: var(--circle-orange);
+}
+.service-category-row:is(:hover, :focus-visible) .service_thumbnail {
+  width: 200px;
+  margin-right: 20px;
+  opacity: 1;
+}
+@media screen and (max-width: 991px) {
+  .service-category-row .animated_center { height: 160px; }
+  .service-category-row .service_thumbnail,
+  .service-category-row .service_thumbnail_img { height: 160px; }
+  .service-category-row .service_thumbnail_img,
+  .service-category-row:is(:hover, :focus-visible) .service_thumbnail { width: 160px; }
+}
+@media screen and (max-width: 767px) {
+  .services_list_wrapper:has(.service-categories) { padding-left: 0; padding-right: 0; }
+  .service-category-row .animated_center { height: 112px; gap: 12px; }
+  .service-category-row .big_capital_text,
+  .service-category-row .big_capital_number { font-size: clamp(24px, 6vw, 44px); letter-spacing: -.03em; }
+  .service-category-row .service_thumbnail,
+  .service-category-row .service_thumbnail_img { height: 72px; }
+  .service-category-row .service_thumbnail_img,
+  .service-category-row:is(:hover, :focus-visible) .service_thumbnail { width: 64px; }
+  .service-category-row:is(:hover, :focus-visible) .service_thumbnail { margin-right: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-categories .service-category-row,
+  .service-category-row .service_thumbnail { transition: none; }
+}
