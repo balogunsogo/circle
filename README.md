@@ -19,3 +19,9 @@ No installation or build step is required. Deploy the repository root to a stati
 - The contact form is an explicitly labelled demo. It sends no requests and stores no data.
 - Previous business content, media, CMS detail templates, video references, and bundled interaction data have been removed. Navigation and form behavior use a small local script.
 - The original layout styles remain as a shell, with concept styling in `css/concept.css`. Typography uses a system font stack.
+
+## GitHub Pages
+
+In the repository settings, open **Pages**. Under **Build and deployment**, select **Deploy from a branch**, choose **main** and **/ (root)**, then save.
+
+The site will be available at https://balogunsogo.github.io/circle/ after GitHub completes deployment. All page and asset paths are relative to support this project URL. The `.nojekyll` file tells Pages to serve the static files without Jekyll processing.
